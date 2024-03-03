@@ -9,7 +9,7 @@ pipeline {
         sh 'mvn --version'
       }
     }
-    stage('Front') {
+    stage('Frot') {
       agent {
         docker { image 'node:16-alpine' }
       }
