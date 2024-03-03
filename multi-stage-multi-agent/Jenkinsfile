@@ -1,7 +1,7 @@
 pipeline {
   agent none
   stages {
-    stage('Backyy') {
+    stage('Backysdfghjy') {
       agent {
         docker { image 'maven:3.8.1-adoptopenjdk-11' }
       }
@@ -9,7 +9,7 @@ pipeline {
         sh 'mvn --version'
       }
     }
-    stage('Frot') {
+    stage('fcgFrot') {
       agent {
         docker { image 'node:16-alpine' }
       }
